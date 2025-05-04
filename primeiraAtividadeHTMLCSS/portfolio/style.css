@@ -109,11 +109,24 @@ body {
     padding: 23.64px;
 }
 
+.cabecalho__menu {
+    padding: 5% 0 0 15%;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+
 .cabecalho__menu__link {
-    color: #22D4FD;
-    font-family: "Monteserrat", sans-serif;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 24;
+    color: #838383;
+    padding: 0 10% 0 0;
     text-decoration: none;
-    padding: 0 40px;
+}
+
+.cabecalho__menu__link:hover {
+    color: #22D4FD;
 }
