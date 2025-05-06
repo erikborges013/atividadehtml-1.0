@@ -45,18 +45,25 @@ body {
     padding: 23.64px;
 }
 
+
+.imgPerfil {
+    width: 150px; /* define um tamanho fixo mais controlado */
+    border-radius: 10%;
+}
+
 .apresentacao {
-    padding: 5% 15% ;
+    margin: 5% 0 5% 15%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .apresentacao__conteudo {
-    width: 100%;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    gap: 90px;
 }
 
-.imgPerfil {
-    width: 20%;
-    border-radius: 10%;
-
+.nome__completo {
+    font-size: 40px;
 }
