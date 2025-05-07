@@ -6,12 +6,23 @@
     padding: 0;
 }
 
+:root {
+    --cor-primaria: #001219;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22D4FD;
+    --cor-hoverborda: #0000FF;
+    --cor-hoverbackground: #272727;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
 body {
     
     box-sizing: border-box;
-    background-color: #001219;
-    color: #f6f6f6;
-}
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+} 
 
 .cabecalho {
     padding: 2% 0 0 15%; 
@@ -24,26 +35,27 @@ body {
 
 .cabecalho__menu__link {
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 600;
-    color: #838383;
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 
 .cabecalho__menu__link:hover {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .rodape {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 400;
     margin-left: 50;
     font-size: 24px;
-    background-color: #22D4FD;
-    color: #000000;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
     text-align: center;
     padding: 23.64px;
 }
+
 
 
 .imgPerfil {
@@ -52,7 +64,7 @@ body {
 }
 
 .apresentacao {
-    margin: 5% 0 5% 15%;
+    margin: 5% 0 5% 0%;
     display: flex;
     flex-direction: column;
 
@@ -60,10 +72,56 @@ body {
 
 .apresentacao__conteudo {
     display: flex;
+    margin: 0 10% 0 10%;
     align-items: center;
     gap: 90px;
 }
 
 .nome__completo {
     font-size: 40px;
+}
+
+.objetivo {
+    margin: 1% 10% 1% 10%;
+
+
+}
+
+.objetivo__titulo {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+.objetivo__paragrafo {
+    margin: 1% 0;
+}
+
+.experiencias {
+    margin: 1% 10% 1% 10%;
+}
+
+.experiencias__titulo {
+    background-color: rgb(255, 255, 255);
+    color: var(--cor-primaria);
+}
+
+.formacao {
+    margin: 1% 10% 1% 10%;
+}
+
+.formacao__titulo {
+    background-color: rgb(255, 255, 255);
+    color: var(--cor-primaria);
+}
+
+h1 {
+    font-family: var(--fonte-primaria);
+}
+
+p {
+    font-family: var(--fonte-secundaria);
+}
+
+li {
+    font-family: var(--fonte-secundaria);
 }
