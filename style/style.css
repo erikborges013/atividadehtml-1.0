@@ -146,6 +146,8 @@ body {
 
     .cabecalho__menu {
         justify-content: center;
+        gap: 2.5%;
+        align-items: center;
     }
 
     .cabecalho__menu__link {
